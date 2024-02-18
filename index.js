@@ -60,6 +60,7 @@ app.put('/test/:id', checkUserId, (request, response) => {
 
 const index = request.userIndex
  const id = request.userId
+ 
 
   // const { id } = request.params
   const { name, age } = request.body
